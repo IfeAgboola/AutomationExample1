@@ -1,0 +1,111 @@
+body
+{
+    background-color:cornflowerblue;
+}
+
+p
+{
+    color:white;
+}
+
+.ex1head
+{
+    height: 10%;
+    width: 100%px;
+    background-color: azure;
+    /* margin: 10px;
+    padding: 20px; */
+}
+
+.ex1menu
+{
+    height: 100px;
+    width: 100%;
+    background-color:pink;
+    /* display: inline; */
+    /* margin: 10px;
+    padding: 20px; */
+}
+
+
+#box1
+{
+    height: 550px;
+    width: 450px;
+    background-color:brown;
+    float:left;
+    display:inline-flex; 
+}
+
+#box2
+{
+    height: 550px;
+    width: 450px;
+    background-color:aquamarine;
+    float:right;
+    display:inline-flex;
+
+    /* margin: 10px;
+    padding: 20px; */
+}
+
+#middle
+{
+    height: 550px;
+    width: 565px;
+    background-color:aquamarine;
+    
+    display:flex;
+
+    /* margin: 10px;
+    padding: 20px; */
+}
+
+.contentbox
+{
+    height: 520px;
+    width: 100%;
+    background-color:blue;
+    
+    
+
+}
+
+#footerbox
+{
+    height: 100px;
+    width: 100%;
+    background-color:bisque;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color:blue;
+  }
+
+  .active {
+    background-color: #04AA6D;
+  }
+  /* Add a gray right border to all list items, except the last item (last-child) */
+
+  
+  li:last-child {
+    border-right: none;
+  }
